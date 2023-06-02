@@ -1,0 +1,26 @@
+name: TPA
+main: angga7togk\tpa\TPA
+version: 1.0.0
+api:
+  - 5.0.0
+  - 4.0.0
+author: Angga7Togk
+description: "Teleport Player Accept"
+
+commands:
+  tpa:
+    description: "Send Request Tpa"
+    permission: TPA.command
+  tpahere:
+    description: "Send Request TpHere"
+    permission: TPA.command
+  tpaccept:
+    description: "Accept Request"
+    permission: TPA.command
+  tpadeny:
+    description: "Deny Request"
+    permission: TPA.command
+
+permissions:
+  TPA.command:
+    default: true
