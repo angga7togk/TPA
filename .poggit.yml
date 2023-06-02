@@ -5,4 +5,6 @@ branches:
 projects:
   TPA:
     path: ""
+  icon:
+    path: "icon.png"
 ...
